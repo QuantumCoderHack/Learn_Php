@@ -1,8 +1,8 @@
 <?php
 //-------------------------------------------------------------------
-$array_ex=array("Spiderman","Suç ve Ceza","IT","İçimizdeki Çocuk","İnsan ve Davranışı");
+$array_ex=array("Spiderman","SuÃ§ ve Ceza","IT","Ä°Ã§imizdeki Ã‡ocuk","Ä°nsan ve DavranÄ±ÅŸÄ±");
 
-array_unshift($array_ex,"Şeker Portakalı");//Dizinin başına eleman ekler.
+array_unshift($array_ex,"Åeker PortakalÄ±");//Dizinin baÅŸÄ±na eleman ekler.
 array_push($array_ex,"Spiderman 2");//Dizinin sonuna eleman ekler.
 
 
@@ -13,8 +13,8 @@ print_r($array_ex);
 
 
 //-------------------------------------------------------------------
-array_shift($array_ex);//Dizinin başındaki elemanı kaldırır.
-array_pop($array_ex);//Dizinin sonundaki elemanı kaldırır.
+array_shift($array_ex);//Dizinin baÅŸÄ±ndaki elemanÄ± kaldÄ±rÄ±r.
+array_pop($array_ex);//Dizinin sonundaki elemanÄ± kaldÄ±rÄ±r.
 
 
 echo "<pre>";
@@ -26,7 +26,7 @@ print_r($array_ex);
 
 
 //-------------------------------------------------------------------
-unset($array_ex[2]);//Dizide belirtilen indis numarasına göre kaldırır.
+unset($array_ex[2]);//Dizide belirtilen indis numarasÄ±na gÃ¶re kaldÄ±rÄ±r.
 
 
 echo "<pre>";
@@ -37,12 +37,12 @@ print_r($array_ex);
 //ORNEKLER
 
 //-------------------------------------------------------------------
-//1, 5, 9 No.lu indise sahip olan öğrenci adlarını silen PHP kodlarını yazınız.
+//1, 5, 9 No.lu indise sahip olan Ã¶ÄŸrenci adlarÄ±nÄ± silen PHP kodlarÄ±nÄ± yazÄ±nÄ±z.
 
-echo "<br><br> 1, 5, 9 No.lu indise sahip olan öğrenci adlarını silen PHP kodlarını yazınız.";
+echo "<br><br> 1, 5, 9 No.lu indise sahip olan Ã¶ÄŸrenci adlarÄ±nÄ± silen PHP kodlarÄ±nÄ± yazÄ±nÄ±z.";
 
 
-$ogrenciler=array("Ali","Veli","Ayşe","Fatma","Çiçek","Yasin","İbo","Arda","Mustafa","Mehmet","Kemal");
+$ogrenciler=array("Ali","Veli","AyÅŸe","Fatma","Ã‡iÃ§ek","Yasin","Ä°bo","Arda","Mustafa","Mehmet","Kemal");
 
 
 unset($ogrenciler[1]);
@@ -57,12 +57,12 @@ print_r($ogrenciler);
 
 
 //-------------------------------------------------------------------
-//Sildiğiniz 1 ve 5 no.lu indise sahip olan öğrencileri dizin başına, 9 No.lu indise sahip olan öğrenciyi
-//dizinin sonuna ekleyen PHP kodlarını yazınız.
+//SildiÄŸiniz 1 ve 5 no.lu indise sahip olan Ã¶ÄŸrencileri dizin baÅŸÄ±na, 9 No.lu indise sahip olan Ã¶ÄŸrenciyi
+//dizinin sonuna ekleyen PHP kodlarÄ±nÄ± yazÄ±nÄ±z.
 
-echo "<br><br> Sildiğiniz 1 ve 5 no.lu indise sahip olan öğrencileri dizin başına, 9 No.lu indise sahip olan öğrenciyi dizinin sonuna ekleyen PHP kodlarını yazınız.";
+echo "<br><br> SildiÄŸiniz 1 ve 5 no.lu indise sahip olan Ã¶ÄŸrencileri dizin baÅŸÄ±na, 9 No.lu indise sahip olan Ã¶ÄŸrenciyi dizinin sonuna ekleyen PHP kodlarÄ±nÄ± yazÄ±nÄ±z.";
 
-$ogrenciler=array("Ali","Veli","Ayşe","Fatma","Çiçek","Yasin","İbo","Arda","Mustafa","Mehmet","Kemal");
+$ogrenciler=array("Ali","Veli","AyÅŸe","Fatma","Ã‡iÃ§ek","Yasin","Ä°bo","Arda","Mustafa","Mehmet","Kemal");
 
 
 
@@ -83,10 +83,10 @@ print_r($ogrenciler);
 
 
 //-------------------------------------------------------------------
-//Dizin başından ve sonundan iki tane öğrenci adını çıkaran PHP kodunu yazınız.
-echo "<br><br> Dizin başından ve sonundan iki tane öğrenci adını çıkaran PHP kodunu yazınız.";
+//Dizin baÅŸÄ±ndan ve sonundan iki tane Ã¶ÄŸrenci adÄ±nÄ± Ã§Ä±karan PHP kodunu yazÄ±nÄ±z.
+echo "<br><br> Dizin baÅŸÄ±ndan ve sonundan iki tane Ã¶ÄŸrenci adÄ±nÄ± Ã§Ä±karan PHP kodunu yazÄ±nÄ±z.";
 
-$ogrenciler=array("Ali","Veli","Ayşe","Fatma","Çiçek","Yasin","İbo","Arda","Mustafa","Mehmet","Kemal");
+$ogrenciler=array("Ali","Veli","AyÅŸe","Fatma","Ã‡iÃ§ek","Yasin","Ä°bo","Arda","Mustafa","Mehmet","Kemal");
 
 array_shift($ogrenciler);
 array_pop($ogrenciler);
@@ -98,11 +98,11 @@ print_r($ogrenciler);
 
 
 //-------------------------------------------------------------------
-//Dizileri birleştirme işlemi
-echo "<br><br> Dizileri birleştirme işlemi";
+//Dizileri birleÅŸtirme iÅŸlemi
+echo "<br><br> Dizileri birleÅŸtirme iÅŸlemi";
 
 $meyveler=array("Elma","Muz","Kiraz");
-$sebzeler=array("Kabak","Havuç","Turp");
+$sebzeler=array("Kabak","HavuÃ§","Turp");
 
 $birlestir=array_merge($meyveler,$sebzeler);
 
@@ -131,8 +131,8 @@ print_r($birlestir);
 
 
 //-------------------------------------------------------------------
-//Dizilerde yer alan verilerin farkını bulma
-echo "<br><br> Dizilerde yer alan verilerin farkını bulma";
+//Dizilerde yer alan verilerin farkÄ±nÄ± bulma
+echo "<br><br> Dizilerde yer alan verilerin farkÄ±nÄ± bulma";
 $sayilar=array(1,12,4,6);
 $sayilar2=array(1,8,3,4);
 $sayilar3=array(6,2,15,4);
@@ -148,8 +148,8 @@ print_r($birlestir);
 
 
 //-------------------------------------------------------------------
-//Dizide tekrarlanan değerleri silme
-echo "<br><br> Dizide tekrarlanan değerleri silme";
+//Dizide tekrarlanan deÄŸerleri silme
+echo "<br><br> Dizide tekrarlanan deÄŸerleri silme";
 $sayilar=array(1,1,2,3,3,4,5,6);
 
 $birlestir=array_unique($sayilar);
@@ -163,13 +163,32 @@ print_r($birlestir);
 
 
 //-------------------------------------------------------------------
-//Dizideki elemanları yan yana sıralama
-echo "<br><br> Dizideki elemanları yan yana sıralama <br>";
+//Dizideki elemanlarÄ± yan yana sÄ±ralama
+echo "<br><br> Dizideki elemanlarÄ± yan yana sÄ±ralama <br>";
 $sayilar=array(1,3,4,6,7,8);
 
 echo implode("-",$sayilar);
 
 //-------------------------------------------------------------------
+
+
+//Rastgele kitap ve yazar adÄ± tanÄ±mlama
+$books=array(
+0=>array("kitap adÄ±"=>"It","yazar"=>"Peter Johnson"),
+1=>array("kitap adÄ±"=>"Spiderman","yazar"=>"Peter Parker"),
+2=>array("kitap adÄ±"=>"Tom ve Jerry","yazar"=>"Ä°bo BÃ¼yÃ¼k Hekim"),
+3=>array("kitap adÄ±"=>"Kovan HayatÄ±","yazar"=>"Arda Kovan")
+
+);
+
+$rnd=array_rand($books);
+
+echo $books[$rnd]["kitap adÄ±"],"---> ";
+echo $books[$rnd]["yazar"],"|";
+
+//-------------------------------------------------------------------
+
+
 
 
 
